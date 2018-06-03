@@ -1,0 +1,56 @@
+[
+  {
+    "id": "mid1",
+    "content": "The access point? Great. Where the fuck's the access point?... Oh, fuck! More stairs? Come on!",
+    "timestamp": "00:00 AM",
+    "sender": {
+      "nickname": "cooper",
+      "avatar": "img/cooper.jpg"
+    }
+  },
+  {
+    "id": "mid2",
+    "content": "FRIENDS DON’T LIE.",
+    "timestamp": "01:00 AM",
+    "sender": {
+      "nickname": "eleven",
+      "avatar": "img/eleven.jpg"
+    }
+  },
+  {
+    "id": "mid3",
+    "content": "They say everyone's born a hero. But if you let it, life will push you over the line until you're the villain. Problem is, you don't always know that you've crossed that line. Maybe it's enough that the world thinks I'm a hero.",
+    "timestamp": "02:00 AM",
+    "sender": {
+      "nickname": "jessica",
+      "avatar": "img/jessica.jpg"
+    }
+  },
+  {
+    "id": "mid4",
+    "content": "When my dragons are grown, we will take back what was stolen from me and destroy those who wronged me! We will lay waste to armies and burn cities to the ground!",
+    "timestamp": "03:00 AM",
+    "sender": {
+      "nickname": "khaleesi",
+      "avatar": "img/tyrion.jpg"
+    }
+  },
+  {
+    "id": "mid5",
+    "content": "This is how we survive: we tell ourselves we are the walking dead.",
+    "timestamp": "04:00 AM",
+    "sender": {
+      "nickname": "rick",
+      "avatar": "img/rick.jpg"
+    }
+  },
+  {
+    "id": "mid6",
+    "content": "I watched Jane die. I was there. And I watched her die. I watched her overdose and choke to death. I could have saved her. But I didn't.",
+    "timestamp": "05:00 AM",
+    "sender": {
+      "nickname": "walter",
+      "avatar": "img/walter.jpg"
+    }
+  }
+]

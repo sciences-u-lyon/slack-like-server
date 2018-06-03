@@ -21,7 +21,7 @@ module.exports = io => {
         timestamp: format(new Date(), 'HH:mm A'),
         sender: {
           nickname,
-          avatar: 'img/avatar.png'
+          avatar: 'img/avatar.jpg'
         }
       });
 

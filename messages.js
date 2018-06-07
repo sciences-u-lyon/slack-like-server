@@ -1,5 +1,10 @@
 const uuidv1 = require('uuid/v1');
 const format = require('date-fns/format');
+const createDOMPurify = require('dompurify');
+const { JSDOM } = require('jsdom');
+
+const window = (new JSDOM('')).window;
+const DOMPurify = createDOMPurify(window);
 
 const messages = require('./messages.json');
 const LIMIT = 1000;
@@ -17,10 +22,10 @@ module.exports = io => {
       }
       messages.push({
         id: uuidv1(),
-        content: message,
+        content: DOMPurify.sanitize(message),
         timestamp: format(new Date(), 'HH:mm A'),
         sender: {
-          nickname,
+          nickname: DOMPurify.sanitize(nickname),
           avatar: 'img/avatar.jpg'
         }
       });
